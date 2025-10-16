@@ -38,7 +38,7 @@ Function Write-Log {
 }
 
 #-------------------- User Alert --------------------
-msg * "⚠️ Your system is scheduled to perform self-maintenance and will RESTART in 5 minutes. Please save your work immediately."
+msg * "Your system is scheduled to perform self-maintenance and will RESTART in 5 minutes. Please save your work immediately."
 Write-Log "User notified about maintenance 5 minutes before execution."
 Start-Sleep -Seconds 300  # Wait 5 minutes before actual maintenance
 #----------------------------------------------------
@@ -133,3 +133,4 @@ Write-Log "Restart command issued successfully."
 #------------------------------------------------------------
 
 Write-Log "=== End of Script ==="
+
